@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		051EFA731F2066F100F89B05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051EFA721F2066F100F89B05 /* AppDelegate.swift */; };
+		051EFA751F2066F100F89B05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051EFA741F2066F100F89B05 /* ViewController.swift */; };
+		051EFA781F2066F100F89B05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 051EFA761F2066F100F89B05 /* Main.storyboard */; };
+		051EFA7A1F2066F100F89B05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 051EFA791F2066F100F89B05 /* Assets.xcassets */; };
+		051EFA7D1F2066F100F89B05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 051EFA7B1F2066F100F89B05 /* LaunchScreen.storyboard */; };
+		051EFA881F2066F100F89B05 /* ISTQB_Advanced_TTATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051EFA871F2066F100F89B05 /* ISTQB_Advanced_TTATests.swift */; };
+		051EFA931F2066F100F89B05 /* ISTQB_Advanced_TTAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051EFA921F2066F100F89B05 /* ISTQB_Advanced_TTAUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		051EFA841F2066F100F89B05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 051EFA671F2066F000F89B05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 051EFA6E1F2066F100F89B05;
+			remoteInfo = "ISTQB Advanced TTA";
+		};
+		051EFA8F1F2066F100F89B05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 051EFA671F2066F000F89B05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 051EFA6E1F2066F100F89B05;
+			remoteInfo = "ISTQB Advanced TTA";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		051EFA6F1F2066F100F89B05 /* ISTQB Advanced TTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ISTQB Advanced TTA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		051EFA721F2066F100F89B05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		051EFA741F2066F100F89B05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		051EFA771F2066F100F89B05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		051EFA791F2066F100F89B05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		051EFA7C1F2066F100F89B05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		051EFA7E1F2066F100F89B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		051EFA831F2066F100F89B05 /* ISTQB Advanced TTATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ISTQB Advanced TTATests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		051EFA871F2066F100F89B05 /* ISTQB_Advanced_TTATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISTQB_Advanced_TTATests.swift; sourceTree = "<group>"; };
+		051EFA891F2066F100F89B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		051EFA8E1F2066F100F89B05 /* ISTQB Advanced TTAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ISTQB Advanced TTAUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		051EFA921F2066F100F89B05 /* ISTQB_Advanced_TTAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISTQB_Advanced_TTAUITests.swift; sourceTree = "<group>"; };
+		051EFA941F2066F100F89B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		051EFA6C1F2066F100F89B05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051EFA801F2066F100F89B05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051EFA8B1F2066F100F89B05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		051EFA661F2066F000F89B05 = {
+			isa = PBXGroup;
+			children = (
+				051EFA711F2066F100F89B05 /* ISTQB Advanced TTA */,
+				051EFA861F2066F100F89B05 /* ISTQB Advanced TTATests */,
+				051EFA911F2066F100F89B05 /* ISTQB Advanced TTAUITests */,
+				051EFA701F2066F100F89B05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		051EFA701F2066F100F89B05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				051EFA6F1F2066F100F89B05 /* ISTQB Advanced TTA.app */,
+				051EFA831F2066F100F89B05 /* ISTQB Advanced TTATests.xctest */,
+				051EFA8E1F2066F100F89B05 /* ISTQB Advanced TTAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		051EFA711F2066F100F89B05 /* ISTQB Advanced TTA */ = {
+			isa = PBXGroup;
+			children = (
+				051EFA721F2066F100F89B05 /* AppDelegate.swift */,
+				051EFA741F2066F100F89B05 /* ViewController.swift */,
+				051EFA761F2066F100F89B05 /* Main.storyboard */,
+				051EFA791F2066F100F89B05 /* Assets.xcassets */,
+				051EFA7B1F2066F100F89B05 /* LaunchScreen.storyboard */,
+				051EFA7E1F2066F100F89B05 /* Info.plist */,
+			);
+			path = "ISTQB Advanced TTA";
+			sourceTree = "<group>";
+		};
+		051EFA861F2066F100F89B05 /* ISTQB Advanced TTATests */ = {
+			isa = PBXGroup;
+			children = (
+				051EFA871F2066F100F89B05 /* ISTQB_Advanced_TTATests.swift */,
+				051EFA891F2066F100F89B05 /* Info.plist */,
+			);
+			path = "ISTQB Advanced TTATests";
+			sourceTree = "<group>";
+		};
+		051EFA911F2066F100F89B05 /* ISTQB Advanced TTAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				051EFA921F2066F100F89B05 /* ISTQB_Advanced_TTAUITests.swift */,
+				051EFA941F2066F100F89B05 /* Info.plist */,
+			);
+			path = "ISTQB Advanced TTAUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		051EFA6E1F2066F100F89B05 /* ISTQB Advanced TTA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 051EFA971F2066F100F89B05 /* Build configuration list for PBXNativeTarget "ISTQB Advanced TTA" */;
+			buildPhases = (
+				051EFA6B1F2066F100F89B05 /* Sources */,
+				051EFA6C1F2066F100F89B05 /* Frameworks */,
+				051EFA6D1F2066F100F89B05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ISTQB Advanced TTA";
+			productName = "ISTQB Advanced TTA";
+			productReference = 051EFA6F1F2066F100F89B05 /* ISTQB Advanced TTA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		051EFA821F2066F100F89B05 /* ISTQB Advanced TTATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 051EFA9A1F2066F100F89B05 /* Build configuration list for PBXNativeTarget "ISTQB Advanced TTATests" */;
+			buildPhases = (
+				051EFA7F1F2066F100F89B05 /* Sources */,
+				051EFA801F2066F100F89B05 /* Frameworks */,
+				051EFA811F2066F100F89B05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				051EFA851F2066F100F89B05 /* PBXTargetDependency */,
+			);
+			name = "ISTQB Advanced TTATests";
+			productName = "ISTQB Advanced TTATests";
+			productReference = 051EFA831F2066F100F89B05 /* ISTQB Advanced TTATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		051EFA8D1F2066F100F89B05 /* ISTQB Advanced TTAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 051EFA9D1F2066F100F89B05 /* Build configuration list for PBXNativeTarget "ISTQB Advanced TTAUITests" */;
+			buildPhases = (
+				051EFA8A1F2066F100F89B05 /* Sources */,
+				051EFA8B1F2066F100F89B05 /* Frameworks */,
+				051EFA8C1F2066F100F89B05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				051EFA901F2066F100F89B05 /* PBXTargetDependency */,
+			);
+			name = "ISTQB Advanced TTAUITests";
+			productName = "ISTQB Advanced TTAUITests";
+			productReference = 051EFA8E1F2066F100F89B05 /* ISTQB Advanced TTAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		051EFA671F2066F000F89B05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ruby Pham";
+				TargetAttributes = {
+					051EFA6E1F2066F100F89B05 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9BTPF7FNEM;
+						ProvisioningStyle = Automatic;
+					};
+					051EFA821F2066F100F89B05 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9BTPF7FNEM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 051EFA6E1F2066F100F89B05;
+					};
+					051EFA8D1F2066F100F89B05 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9BTPF7FNEM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 051EFA6E1F2066F100F89B05;
+					};
+				};
+			};
+			buildConfigurationList = 051EFA6A1F2066F000F89B05 /* Build configuration list for PBXProject "ISTQB Advanced TTA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 051EFA661F2066F000F89B05;
+			productRefGroup = 051EFA701F2066F100F89B05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				051EFA6E1F2066F100F89B05 /* ISTQB Advanced TTA */,
+				051EFA821F2066F100F89B05 /* ISTQB Advanced TTATests */,
+				051EFA8D1F2066F100F89B05 /* ISTQB Advanced TTAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		051EFA6D1F2066F100F89B05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051EFA7D1F2066F100F89B05 /* LaunchScreen.storyboard in Resources */,
+				051EFA7A1F2066F100F89B05 /* Assets.xcassets in Resources */,
+				051EFA781F2066F100F89B05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051EFA811F2066F100F89B05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051EFA8C1F2066F100F89B05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		051EFA6B1F2066F100F89B05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051EFA751F2066F100F89B05 /* ViewController.swift in Sources */,
+				051EFA731F2066F100F89B05 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051EFA7F1F2066F100F89B05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051EFA881F2066F100F89B05 /* ISTQB_Advanced_TTATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051EFA8A1F2066F100F89B05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051EFA931F2066F100F89B05 /* ISTQB_Advanced_TTAUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		051EFA851F2066F100F89B05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 051EFA6E1F2066F100F89B05 /* ISTQB Advanced TTA */;
+			targetProxy = 051EFA841F2066F100F89B05 /* PBXContainerItemProxy */;
+		};
+		051EFA901F2066F100F89B05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 051EFA6E1F2066F100F89B05 /* ISTQB Advanced TTA */;
+			targetProxy = 051EFA8F1F2066F100F89B05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		051EFA761F2066F100F89B05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				051EFA771F2066F100F89B05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		051EFA7B1F2066F100F89B05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				051EFA7C1F2066F100F89B05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		051EFA951F2066F100F89B05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		051EFA961F2066F100F89B05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		051EFA981F2066F100F89B05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9BTPF7FNEM;
+				INFOPLIST_FILE = "ISTQB Advanced TTA/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.erub.ISTQB-Advanced-TTA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		051EFA991F2066F100F89B05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9BTPF7FNEM;
+				INFOPLIST_FILE = "ISTQB Advanced TTA/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.erub.ISTQB-Advanced-TTA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		051EFA9B1F2066F100F89B05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9BTPF7FNEM;
+				INFOPLIST_FILE = "ISTQB Advanced TTATests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.erub.ISTQB-Advanced-TTATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ISTQB Advanced TTA.app/ISTQB Advanced TTA";
+			};
+			name = Debug;
+		};
+		051EFA9C1F2066F100F89B05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9BTPF7FNEM;
+				INFOPLIST_FILE = "ISTQB Advanced TTATests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.erub.ISTQB-Advanced-TTATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ISTQB Advanced TTA.app/ISTQB Advanced TTA";
+			};
+			name = Release;
+		};
+		051EFA9E1F2066F100F89B05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9BTPF7FNEM;
+				INFOPLIST_FILE = "ISTQB Advanced TTAUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.erub.ISTQB-Advanced-TTAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ISTQB Advanced TTA";
+			};
+			name = Debug;
+		};
+		051EFA9F1F2066F100F89B05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9BTPF7FNEM;
+				INFOPLIST_FILE = "ISTQB Advanced TTAUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.erub.ISTQB-Advanced-TTAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ISTQB Advanced TTA";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		051EFA6A1F2066F000F89B05 /* Build configuration list for PBXProject "ISTQB Advanced TTA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051EFA951F2066F100F89B05 /* Debug */,
+				051EFA961F2066F100F89B05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		051EFA971F2066F100F89B05 /* Build configuration list for PBXNativeTarget "ISTQB Advanced TTA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051EFA981F2066F100F89B05 /* Debug */,
+				051EFA991F2066F100F89B05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		051EFA9A1F2066F100F89B05 /* Build configuration list for PBXNativeTarget "ISTQB Advanced TTATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051EFA9B1F2066F100F89B05 /* Debug */,
+				051EFA9C1F2066F100F89B05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		051EFA9D1F2066F100F89B05 /* Build configuration list for PBXNativeTarget "ISTQB Advanced TTAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051EFA9E1F2066F100F89B05 /* Debug */,
+				051EFA9F1F2066F100F89B05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 051EFA671F2066F000F89B05 /* Project object */;
+}
