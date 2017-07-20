@@ -14,6 +14,7 @@
 		051EFAB71F2067A400F89B05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 051EFAB51F2067A400F89B05 /* LaunchScreen.storyboard */; };
 		051EFAC21F2067A500F89B05 /* ISTQB_Advanced_TTATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051EFAC11F2067A500F89B05 /* ISTQB_Advanced_TTATests.swift */; };
 		051EFACD1F2067A500F89B05 /* ISTQB_Advanced_TTAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051EFACC1F2067A500F89B05 /* ISTQB_Advanced_TTAUITests.swift */; };
+		052B49211F208597003A189D /* Overview.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052B49201F208597003A189D /* Overview.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		051EFAC81F2067A500F89B05 /* ISTQB_Advanced_TTAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ISTQB_Advanced_TTAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		051EFACC1F2067A500F89B05 /* ISTQB_Advanced_TTAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISTQB_Advanced_TTAUITests.swift; sourceTree = "<group>"; };
 		051EFACE1F2067A500F89B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		052B49201F208597003A189D /* Overview.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Overview.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				051EFAB01F2067A400F89B05 /* Main.storyboard */,
 				051EFAB31F2067A400F89B05 /* Assets.xcassets */,
 				051EFAB51F2067A400F89B05 /* LaunchScreen.storyboard */,
+				052B49201F208597003A189D /* Overview.storyboard */,
 				051EFAB81F2067A400F89B05 /* Info.plist */,
 			);
 			path = ISTQB_Advanced_TTA;
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				051EFAB71F2067A400F89B05 /* LaunchScreen.storyboard in Resources */,
+				052B49211F208597003A189D /* Overview.storyboard in Resources */,
 				051EFAB41F2067A400F89B05 /* Assets.xcassets in Resources */,
 				051EFAB21F2067A400F89B05 /* Main.storyboard in Resources */,
 			);
@@ -516,6 +520,7 @@
 				051EFAD31F2067A500F89B05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		051EFAD41F2067A500F89B05 /* Build configuration list for PBXNativeTarget "ISTQB_Advanced_TTATests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +529,7 @@
 				051EFAD61F2067A500F89B05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		051EFAD71F2067A500F89B05 /* Build configuration list for PBXNativeTarget "ISTQB_Advanced_TTAUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +538,7 @@
 				051EFAD91F2067A500F89B05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
