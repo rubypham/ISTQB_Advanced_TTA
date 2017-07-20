@@ -16,23 +16,6 @@
 		05BA3F051F20B32F005B325A /* Chapter1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BA3F041F20B32F005B325A /* Chapter1Controller.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		051EFABE1F2067A500F89B05 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 051EFAA11F2067A400F89B05 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 051EFAA81F2067A400F89B05;
-			remoteInfo = ISTQB_Advanced_TTA;
-		};
-		051EFAC91F2067A500F89B05 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 051EFAA11F2067A400F89B05 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 051EFAA81F2067A400F89B05;
-			remoteInfo = ISTQB_Advanced_TTA;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		051EFAA91F2067A400F89B05 /* ISTQB_Advanced_TTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ISTQB_Advanced_TTA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		051EFAAC1F2067A400F89B05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,8 +23,6 @@
 		051EFAB31F2067A400F89B05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		051EFAB61F2067A400F89B05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		051EFAB81F2067A400F89B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		051EFABD1F2067A500F89B05 /* ISTQB_Advanced_TTATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ISTQB_Advanced_TTATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		051EFAC81F2067A500F89B05 /* ISTQB_Advanced_TTAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ISTQB_Advanced_TTAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05BA3F001F20B220005B325A /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		05BA3F021F20B29E005B325A /* OverviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverviewController.swift; sourceTree = "<group>"; };
 		05BA3F041F20B32F005B325A /* Chapter1Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter1Controller.swift; sourceTree = "<group>"; };
@@ -49,20 +30,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		051EFAA61F2067A400F89B05 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		051EFABA1F2067A500F89B05 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		051EFAC51F2067A500F89B05 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,8 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				051EFAA91F2067A400F89B05 /* ISTQB_Advanced_TTA.app */,
-				051EFABD1F2067A500F89B05 /* ISTQB_Advanced_TTATests.xctest */,
-				051EFAC81F2067A500F89B05 /* ISTQB_Advanced_TTAUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -165,42 +130,6 @@
 			productReference = 051EFAA91F2067A400F89B05 /* ISTQB_Advanced_TTA.app */;
 			productType = "com.apple.product-type.application";
 		};
-		051EFABC1F2067A500F89B05 /* ISTQB_Advanced_TTATests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 051EFAD41F2067A500F89B05 /* Build configuration list for PBXNativeTarget "ISTQB_Advanced_TTATests" */;
-			buildPhases = (
-				051EFAB91F2067A500F89B05 /* Sources */,
-				051EFABA1F2067A500F89B05 /* Frameworks */,
-				051EFABB1F2067A500F89B05 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				051EFABF1F2067A500F89B05 /* PBXTargetDependency */,
-			);
-			name = ISTQB_Advanced_TTATests;
-			productName = ISTQB_Advanced_TTATests;
-			productReference = 051EFABD1F2067A500F89B05 /* ISTQB_Advanced_TTATests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		051EFAC71F2067A500F89B05 /* ISTQB_Advanced_TTAUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 051EFAD71F2067A500F89B05 /* Build configuration list for PBXNativeTarget "ISTQB_Advanced_TTAUITests" */;
-			buildPhases = (
-				051EFAC41F2067A500F89B05 /* Sources */,
-				051EFAC51F2067A500F89B05 /* Frameworks */,
-				051EFAC61F2067A500F89B05 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				051EFACA1F2067A500F89B05 /* PBXTargetDependency */,
-			);
-			name = ISTQB_Advanced_TTAUITests;
-			productName = ISTQB_Advanced_TTAUITests;
-			productReference = 051EFAC81F2067A500F89B05 /* ISTQB_Advanced_TTAUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -215,18 +144,6 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 9BTPF7FNEM;
 						ProvisioningStyle = Automatic;
-					};
-					051EFABC1F2067A500F89B05 = {
-						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 9BTPF7FNEM;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 051EFAA81F2067A400F89B05;
-					};
-					051EFAC71F2067A500F89B05 = {
-						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 9BTPF7FNEM;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 051EFAA81F2067A400F89B05;
 					};
 				};
 			};
@@ -244,8 +161,6 @@
 			projectRoot = "";
 			targets = (
 				051EFAA81F2067A400F89B05 /* ISTQB_Advanced_TTA */,
-				051EFABC1F2067A500F89B05 /* ISTQB_Advanced_TTATests */,
-				051EFAC71F2067A500F89B05 /* ISTQB_Advanced_TTAUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,20 +173,6 @@
 				051EFAB71F2067A400F89B05 /* LaunchScreen.storyboard in Resources */,
 				051EFAB41F2067A400F89B05 /* Assets.xcassets in Resources */,
 				051EFAB21F2067A400F89B05 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		051EFABB1F2067A500F89B05 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		051EFAC61F2067A500F89B05 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,34 +190,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		051EFAB91F2067A500F89B05 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		051EFAC41F2067A500F89B05 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		051EFABF1F2067A500F89B05 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 051EFAA81F2067A400F89B05 /* ISTQB_Advanced_TTA */;
-			targetProxy = 051EFABE1F2067A500F89B05 /* PBXContainerItemProxy */;
-		};
-		051EFACA1F2067A500F89B05 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 051EFAA81F2067A400F89B05 /* ISTQB_Advanced_TTA */;
-			targetProxy = 051EFAC91F2067A500F89B05 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		051EFAB01F2067A400F89B05 /* Main.storyboard */ = {
@@ -459,64 +333,6 @@
 			};
 			name = Release;
 		};
-		051EFAD51F2067A500F89B05 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 9BTPF7FNEM;
-				INFOPLIST_FILE = ISTQB_Advanced_TTATests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.erub.ISTQB-Advanced-TTATests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ISTQB_Advanced_TTA.app/ISTQB_Advanced_TTA";
-			};
-			name = Debug;
-		};
-		051EFAD61F2067A500F89B05 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 9BTPF7FNEM;
-				INFOPLIST_FILE = ISTQB_Advanced_TTATests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.erub.ISTQB-Advanced-TTATests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ISTQB_Advanced_TTA.app/ISTQB_Advanced_TTA";
-			};
-			name = Release;
-		};
-		051EFAD81F2067A500F89B05 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 9BTPF7FNEM;
-				INFOPLIST_FILE = ISTQB_Advanced_TTAUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.erub.ISTQB-Advanced-TTAUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = ISTQB_Advanced_TTA;
-			};
-			name = Debug;
-		};
-		051EFAD91F2067A500F89B05 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 9BTPF7FNEM;
-				INFOPLIST_FILE = ISTQB_Advanced_TTAUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.erub.ISTQB-Advanced-TTAUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = ISTQB_Advanced_TTA;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -534,24 +350,6 @@
 			buildConfigurations = (
 				051EFAD21F2067A500F89B05 /* Debug */,
 				051EFAD31F2067A500F89B05 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		051EFAD41F2067A500F89B05 /* Build configuration list for PBXNativeTarget "ISTQB_Advanced_TTATests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				051EFAD51F2067A500F89B05 /* Debug */,
-				051EFAD61F2067A500F89B05 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		051EFAD71F2067A500F89B05 /* Build configuration list for PBXNativeTarget "ISTQB_Advanced_TTAUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				051EFAD81F2067A500F89B05 /* Debug */,
-				051EFAD91F2067A500F89B05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
